@@ -369,6 +369,11 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libOmxVidcCommon \
     libstagefrighthw
+    
+# OnePlus Apps
+PRODUCT_PACKAGES += \
+    OnePlusCameraOverlay \
+    OnePlusGalleryOverlay
 
 # Perf
 PRODUCT_PACKAGES += \
