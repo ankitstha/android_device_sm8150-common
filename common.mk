@@ -114,6 +114,11 @@ PRODUCT_PACKAGES += \
     AntHalService-Soong \
     com.dsi.ant@1.0.vendor
 
+# Alert slider
+PRODUCT_PACKAGES += \
+    KeyHandler \
+    tri-state-key-calibrate
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio.service \
@@ -456,10 +461,6 @@ PRODUCT_VENDOR_PROPERTIES += \
 # Touch
 PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0-service.oneplus_msmnile
-
-# tri-state key
-PRODUCT_PACKAGES += \
-    tri-state-key_daemon
 
 # Update engine
 PRODUCT_PACKAGES += \
